@@ -1,0 +1,46 @@
+/*
+Code Refactoring
+1. Readability
+2. Modularity
+  Allows you to drill down on a specifiv section ad figure out
+  problems, or change a particular section, without affecting
+  the rest of the website
+3. Effciiency
+4. Length
+*/
+
+
+
+/*
+Hierarchy over selectors:
+1. IDs (use them sparingly)
+2. Classes
+3. HTML Elements
+Inline styles are more specific than internal or external css styles
+(but avoid them at all costs)
+Also last css rule has priority
+*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* @media only screen and (min-width: 600px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+} */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+/* @media only screen and (max-width: 600px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+} */
